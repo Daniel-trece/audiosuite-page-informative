@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body{
     line-height: 2;
 }
@@ -155,3 +159,40 @@ footer{
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
 }
+
+/*
+##########################################################
+#                                                        #
+#                  PANTALLAS RESPONSIVAS                 #
+#                                                        #
+##########################################################
+*/
+
+@media (max-width: 1024px){ 
+    #home{
+        display: block;
+    }
+    #home main{
+        background-image: url('/img/imageHome.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 18px black;
+    }
+    #home main div{
+        background: rgba(33, 33, 33, 0.473);
+        box-shadow: 0 0 18px black;
+        border-radius: 30px;
+        padding: 1rem 1rem;
+        backdrop-filter: blur(5px);
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+
+    .imagenHome{
+        display: none;
+    }
+ }
