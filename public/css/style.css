@@ -168,8 +168,19 @@ footer{
 ##########################################################
 */
 
-@media (max-width: 1024px){ 
+@media (max-width: 1024px){
+    h2{
+        font-size: 3rem !important;
+    }
+
     #home{
+        display: block;
+    }
+    .redes{
+        display: block;
+        text-align: center;
+    }
+    .redes a{
         display: block;
     }
     #home main{
@@ -190,9 +201,33 @@ footer{
         -moz-border-radius: 30px;
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
-}
-
+    }
+    .mvcontent{
+        display: block;
+    }
+    .mvcontent div,img{
+        width: 100%;
+    }
     .imagenHome{
         display: none;
     }
+    svg{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: -80px;
+    }
+    .galery div{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 20px;
+        padding: 0;
+        gap: .5rem;
+    }
+    .img{
+        height: 160px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
  }
